@@ -1,3 +1,5 @@
+//start
+
 function writeCode(prefix, code, fn){
     let domCode = document.querySelector('#code')
     domCode.innerHTML = prefix || '';
