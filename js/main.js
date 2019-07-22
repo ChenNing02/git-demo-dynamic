@@ -29,9 +29,8 @@ function writeMarkdown(markdown, fn) {
 }
 
 var result = `/*
+ * 案例：
  * 以动画的形式显示代码
- *
- *
  */
 * {
   transition: all 1s;
@@ -43,7 +42,7 @@ html {
 #code {
   padding: 15px;
 }
-/* 加一点代码高亮 */
+/* 给代码添加高亮 */
 .token.property {
     color: #905;
 }
